@@ -158,6 +158,11 @@ body {
   line-height: 130%;
   text-align: center;
   color: #FFFFFF;
+  transition: .3s;
+}
+.main__btn:hover{
+  color: #fff;
+  opacity: 0.8;
 }
 .main__awards{
   width: 398px;
@@ -294,7 +299,7 @@ body {
   padding: 54px 60px 63px;
   max-width: 564.66px;
   width: 100%;
-  height: 708px;
+  height: 685px;
   background: #212640;
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
@@ -369,11 +374,11 @@ body {
   color: #212640;
 }
 .form__right{
-  padding-top: 31px;
+  padding-top: 55px;
   padding-right: 27px;
   max-width: 663px;
   width: 100%;
-  height: 708px;
+  height: 685px;
   background: #212640;
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
@@ -536,6 +541,10 @@ body {
   align-items: center;
   background: #D3AB75;
   border-radius: 15px;
+  transition: .3s;
+}
+.footer__button:hover{
+  background: #C99856;
 }
 .footer__tel{
   margin-top: 40px;
@@ -615,6 +624,9 @@ body {
   }
 }
 @media (max-width: 1500px) {
+  .form__right{
+    padding-top: 34px;
+  }
   .form__left{
     padding: 34px;
     width: 450px;
@@ -1113,6 +1125,16 @@ body {
   }
 }
 @media (max-width: 478px) {
+  .form__left{
+    height: 100%;
+  }
+  .footer{
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .form{
+    padding-bottom: 20px;
+  }
   .form__text{
     font-size: 14px;
   }
